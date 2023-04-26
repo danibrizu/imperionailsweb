@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Yanone Kaffeesatz';
+}
+/* .menu {
+    padding: 0;
+    height: 100px;
+    background-color:#c46a24;
+    display: flex;
+    overflow: hidden;
+} */
+h1 {
+    position: absolute;
+    padding: 15px;
+    border-radius: 25px;
+    color: #ffffff00;
+    /* background-color: rgba(0, 0, 0, 0.384); */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* z-index: 1; */
+}
+/* .carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+} */
+.about, .gallery {
+    /* height: 400px; */
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    /* background-color: aquamarine; */
+}
+.gallery {
+    background: linear-gradient(to right, #c49f24ae, #deba46ae);
+}
+.card {
+    background: #fff;
+}
+.card-title {
+    font-size: 30px;
+}
+.card-body > h5, .card-body > p {
+    color: #c46a24;
+}
+.card-button {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    /* padding: 3px 40px; */
+    /* background-color: #c46a24; */
+    color: #c46a24;
+    border: #c46a24;
+    border-style: solid;
+    transition: all 300ms;
+    border-radius: 30px;
+}
+.card-button:hover {
+    color: #fff;
+    background-color: #c46a24;
+}
+/* .about_us {
+    font-size: 70px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #31160211;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: absolute;
+    justify-items: center;
+
+} */
+.history, .jobs, .title-salon {
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.body-salon { 
+    margin-top: 30px;
+    font-size: 20px;
+}
+/* .text-salon {
+    background-color: aqua;
+} */

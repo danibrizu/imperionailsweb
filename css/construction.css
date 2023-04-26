@@ -1,0 +1,23 @@
+.construction {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    background-color: blueviolet;
+}
+.text-construction {
+    width: 40%;
+}
+.text-title {
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+}
+.text-description {
+    font-size: 25px;
+    color: #fff;
+}
+.img-construction {
+    width: 60%;
+}
