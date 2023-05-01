@@ -37,36 +37,66 @@
 // console.log(texto);
 
 // *********************************************************************************************
-// Obtengo el nombre del archivo html
-let rutaAbsoluta = self.location.href;
-let posicionUltimaBarra = rutaAbsoluta.lastIndexOf("/");
-let rutaRelativa = rutaAbsoluta.substring( posicionUltimaBarra + "/".length , rutaAbsoluta.length );
+
+$(document).ready(function() {
+    // Utiliza AJAX para cargar el contenido del archivo menu.html dentro del elemento #menuContainer
+    $("header").load("../menu.html");
+    console.log("Menu cargado");
+});
+
+// Pido la carga del archivo menu.html y espero a que termine el proceso
+// Utilizo una funcion async await
+
+// async function loadHeader () {
+// await $(document).ready(function() {
+//     // Utiliza AJAX para cargar el contenido del archivo menu.html dentro del elemento #menuContainer
+//     $("header").load("../menu.html");
+//     console.log("Menu cargado");
+//     getPath();
+// });
+// }
+
+// function getHeader () {
+//     const header = fetch("../menu.html")
+//     .then((response) => getPath())
+//     .catch(error => console.log(error))
+// }
+
+// function getPath () {
+// // Obtengo el nombre del archivo html
+// let rutaAbsoluta = self.location.href;
+// let posicionUltimaBarra = rutaAbsoluta.lastIndexOf("/");
+// let rutaRelativa = rutaAbsoluta.substring( posicionUltimaBarra + "/".length , rutaAbsoluta.length );
 // console.log(rutaRelativa);
 
-// Selecciono los elmento del menu y le quito la clase focus
-let navLinkClick = document.querySelectorAll(".nav-link");
-for (i = 0; i < navLinkClick.length; i++) {
-    navLinkClick[i].classList.remove("focus");
-}
+// // Selecciono los elmento del menu y le quito la clase focus
+// let navLinkClick = document.querySelectorAll(".nav-link");
+// console.log(navLinkClick)
+// for (i = 0; i < navLinkClick.length; i++) {
+//     navLinkClick[i].classList.remove("focus");
+// }
 
-// Asigno la clase focus al menu correspondiente en función al archivo html que se esta mostrando
-switch (rutaRelativa) {
-    case "index.html":
-        navLinkClick[0].classList.add("focus");
-        break;
-    case "nosotros.html":
-        navLinkClick[1].classList.add("focus");
-        break;
-    case "galeria.html":
-        navLinkClick[2].classList.add("focus");
-        break;
-    case "blog.html":
-        navLinkClick[3].classList.add("focus");
-        break;
-    case "carrito.html":
-        navLinkClick[4].classList.add("focus");
-        break;
-    case "contacto.html":
-        navLinkClick[5].classList.add("focus");
-    break;
-}
+// // Asigno la clase focus al menu correspondiente en función al archivo html que se esta mostrando
+// switch (rutaRelativa) {
+//     case "index.html":
+//         navLinkClick[0].classList.add("focus");
+//         break;
+//     case "nosotros.html":
+//         navLinkClick[1].classList.add("focus");
+//         break;
+//     case "galeria.html":
+//         navLinkClick[2].classList.add("focus");
+//         break;
+//     case "blog.html":
+//         navLinkClick[3].classList.add("focus");
+//         break;
+//     case "carrito.html":
+//         navLinkClick[4].classList.add("focus");
+//         break;
+//     case "contacto.html":
+//         navLinkClick[5].classList.add("focus");
+//     break;
+// }
+// };
+
+// loadHeader();
