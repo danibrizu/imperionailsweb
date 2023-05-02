@@ -40,7 +40,7 @@
 
 $(document).ready(function() {
     // Utiliza AJAX para cargar el contenido del archivo menu.html dentro del elemento #menuContainer
-    $("header").load("../menu.html");
+    $("#header").load("./menu.html");
     console.log("Menu cargado");
 });
 
