@@ -39,7 +39,7 @@
 // *********************************************************************************************
 
 $(document).ready(function() {
-    // Utiliza AJAX para cargar el contenido del archivo menu.html dentro del elemento #menuContainer
+    // Utiliza AJAX para cargar el contenido del archivo menu.html dentro del elemento #header
     $("#header").load("./menu.html");
     console.log("Menu cargado");
     $("#footer").load("./footer.html");

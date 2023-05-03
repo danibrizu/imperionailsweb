@@ -1,4 +1,4 @@
-//Listar archivos.
+//Listar archivos
 const path = require('path');
 const fs = require('fs');
 
