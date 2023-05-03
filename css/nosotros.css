@@ -5,9 +5,9 @@
     font-family: 'Yanone Kaffeesatz';
 }
 
-body{
+/* body{
     background: #F1FAFF;
-}
+} */
 
 .about-us {
     font-size: 50px;
@@ -77,15 +77,15 @@ body{
 }
 
 .card:nth-of-type(1) .img__back{
-    background-image: url(../img/bg1.jpg);
+    background-image: url(../img/bg01.jpg);
 }
 
 .card:nth-of-type(2) .img__back{
-    background-image: url(../img/bg2.jpg);
+    background-image: url(../img/bg02.jpg);
 }
 
 .card:nth-of-type(3) .img__back{
-    background-image: url(../img/bg3.jpg);
+    background-image: url(../img/bg03.jpg);
 }
 
 .card:hover .img__back{

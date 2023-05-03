@@ -18,15 +18,15 @@
 }
 .text-logo {
     font-family: 'Great Vibes', cursive;
-    font-size: 26px;
+    font-size: 26px !important;
 }
 .nav-item {
-    margin-right: 5px;
+    margin-right: 5px !important;
 }
 .nav-link {
-    color: #fff;
-    font-size: 20px;
-    transition: all 300ms;
+    color: #fff !important;
+    font-size: 20px !important;
+    transition: all 300ms !important;
 }
 /* .nav-link:focus {
     color: #fff;
@@ -35,14 +35,14 @@
     border-radius: 3px;
 } */
 .nav-link:hover {
-    color: #c46a24;
+    color: #c46a24 !important;
 }
-.focus {
+/* .focus {
     color: #fff;
     border-top: #c46a24 solid 1px;
     border-bottom: #c46a24 solid 2px;
     border-radius: 3px;
-}
+} */
 /* .position-relative {
     height: 100vh;
     overflow: hidden;

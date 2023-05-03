@@ -40,8 +40,10 @@
 
 $(document).ready(function() {
     // Utiliza AJAX para cargar el contenido del archivo menu.html dentro del elemento #menuContainer
-    $("header").load("../menu.html");
+    $("#header").load("./menu.html");
     console.log("Menu cargado");
+    $("#footer").load("./footer.html");
+    console.log("Footer cargado");
 });
 
 // Pido la carga del archivo menu.html y espero a que termine el proceso
