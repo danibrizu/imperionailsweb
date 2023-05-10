@@ -30,112 +30,13 @@
       <!-- <div class="about_us">UN POCO DE NOSOTROS</div> -->
       <h2 class="about-us">Galería de Trabajos</h2>
       <p class="text-about m-sm-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facilis ratione temporibus est. Libero sint corporis facere error animi unde voluptate iure enim harum ducimus, ab sunt cumque laborum temporibus?
+        Todos los trabajos realizados con gran responsabilidad y cuidado por nuestro personal especializado y son peronalizados para cada una de nuestras clientas en base a sus preferencias.
       </p>
     </section>
 
-    <div class="container__cards">
-      <div class="card border-0">
-        <div class="cover">
-          <a href="#" data-bs-toggle="modal" data-bs-target="#modalManos01">  
-            <img src="img/manos01.png" alt="Foto de uñas">
-          </a>
-        </div>
-        <div class="description">
-            <h2>Estilo navideño</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, laboriosam.</p>
-        </div>
-      </div>
+    <div class="container__cards"></div>
 
-      <div class="card border-0">
-          <div class="cover">
-            <a href="#" data-bs-toggle="modal" data-bs-target="#modalManos02">  
-              <img src="img/manos02.png" alt="Foto de uñas">
-            </a>  
-          </div>
-          <div class="description">
-              <h2>Basketball</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, laboriosam.</p>
-          </div>
-      </div>
-
-      <div class="card border-0">
-        <div class="cover">
-          <a href="#" data-bs-toggle="modal" data-bs-target="#modalManos03">
-            <img src="img/manos03.png" alt="Foto de pies">
-          </a> 
-        </div>
-        <div class="description">
-          <h2>Sofisticado</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, laboriosam.</p>
-        </div>
-      </div>
-
-      <div class="card border-0">
-        <div class="cover">
-          <a href="#" data-bs-toggle="modal" data-bs-target="#modalManos04">
-            <img src="img/manos04.png" alt="Foto de pies">
-          </a> 
-        </div>
-        <div class="description">
-          <h2>Moderno</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, laboriosam.</p>
-        </div>
-      </div>
-
-      <div class="card border-0">
-        <div class="cover">
-          <a href="#" data-bs-toggle="modal" data-bs-target="#modalPies01">
-            <img src="img/pies01.png" alt="oto de Dani">
-          </a> 
-        </div>
-        <div class="description">
-          <h2>Pies de pricesa</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, laboriosam.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="modal-gallery">
-      <!-- Modal Gallery - Start -->
-    
-      <!-- Image 1 -->
-      <div tabindex="-1" aria-labelledby="modalManos01" aria-hidden="true"
-      class="modal fade" id="modalManos01">
-        <div class="modal-dialog modal-dialog-centered">
-          <img src="./img/manos01.png" alt="">
-        </div>
-      </div>
-      <!-- Image 2 -->
-      <div tabindex="-1" aria-labelledby="modalManos02" aria-hidden="true"
-      class="modal fade" id="modalManos02">
-        <div class="modal-dialog modal-dialog-centered">
-          <img src="./img/manos02.png" alt="">
-        </div>
-      </div>
-      <!-- Image 3 -->
-      <div tabindex="-1" aria-labelledby="modalManos03" aria-hidden="true"
-      class="modal fade" id="modalManos03">
-        <div class="modal-dialog modal-dialog-centered">
-          <img src="./img/manos03.png" alt="">
-        </div>
-      </div>
-      <!-- Image 4 -->
-      <div tabindex="-1" aria-labelledby="modalManos04" aria-hidden="true"
-      class="modal fade" id="modalManos04">
-        <div class="modal-dialog modal-dialog-centered">
-          <img src="./img/manos04.png" alt="">
-        </div>
-      </div>
-      <!-- Image 5 -->
-      <div tabindex="-1" aria-labelledby="modalPies01" aria-hidden="true"
-      class="modal fade" id="modalPies01">
-        <div class="modal-dialog modal-dialog-centered">
-          <img src="./img/pies01.png" alt="">
-        </div>
-      </div>
-      <!-- Modal Gallery - End -->
-    </div>
+    <div class="modal-gallery"></div>
   </main>
 
   <footer id="footer" class="footer"></footer>
@@ -146,5 +47,19 @@
   <!-- <script src="./js/index.js"></script> -->
   <script src="./js/menu.js"></script>
   <script src="./js/getImages.js"></script>
+
+  <!-- <script>
+    // Captura en document...
+    document.addEventListener("hello", function(event) { // (1)
+      alert("Hola desde " + event.target.tagName); // Hola desde H1
+    });
+  
+    // ...Envío en elem!
+    let event = new Event("hello", {bubbles: true}); // (2)
+    header.dispatchEvent(event);
+  
+  // el controlador del documento se activará y mostrará el mensaje.
+  
+  </script> -->
 </body>
 </html>
